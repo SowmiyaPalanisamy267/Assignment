@@ -1,3 +1,4 @@
+# guessing number game
 import random
 
 secret_number = random.randint(1, 100)
@@ -16,7 +17,7 @@ while secret_number!= guess:
 print("you guessed it right!!")
 
 
-
+# word scramble game
 import random
 words = ['python', 'javascript', 'java', 'automation', 'pytest', 'guvi', 'selenium']
 original_word = random.choice(words)
